@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Background */
+body 
+{
+    overflow-x: hidden;
+    background-color: #2a2c30;
+    min-width: 100vh;
+    background-size: 100%;
+    
+}
+
+/* Menu */
+#header
+{
+    background-color: #36393f;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+#header .logo
+{
+    color: #ffff;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+#header .logo .text
+{
+    color: #cdcdcf;
+    font-weight: 700;
+    font-size: 1em;
+    text-decoration: none;
+    align-items: center;
+    margin-left: 20px;
+
+}
+#header .logo img
+{
+    height: 50px;
+}
+#header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header ul li
+{
+    list-style: none;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+#header ul li a
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 20px;
+}
+#header ul li a:hover
+{
+    background: #440000;
+    color: #fff;
+}
+#header ul li a.invite
+{
+    background: rgb(175, 175, 175);
+    color: #2a2c30;
+}
+hr
+{
+   width: 1300px; 
+   margin: auto;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   border-color: rgb(63, 63, 63);
+   border-top-color: rgba(114, 114, 114, 0);;
+}
+.sec
+{
+    padding: 200px;
+}
+.sec1 .intro1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 40px;
+}
+.sec1 .intro2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: rgb(160, 160, 160);
+}
+.sect1
+{
+    padding: 100px 300px;
+}
+.sect1 .sect1-2
+{
+    padding-bottom: 30px;
+}
+.sect1 .sect1-2 h2
+{
+    color: #fff;
+    font-size: 50px;
+}
+.sect1 .sect1-2 .avail
+{
+    color: rgb(167, 167, 167);
+    font-size: 20px;
+}
+.sect1 .sect1-2 .prefix
+{
+    color: rgb(121, 121, 121);
+    font-size: 15px;
+}
+.sect1 .subsec1 h2
+{
+    color: #ffffff;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+.sect1 .subsec1 .bloque
+{
+    padding: 5px 10px;
+    background-color: #36393f;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.sect1 .subsec1 .bloque h3
+{
+    color: rgb(196, 196, 196);
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.sect1 .subsec1 .bloque p
+{
+    color: rgb(143, 143, 143);
+    font-size: 20px;
+    background-color: #202024;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+
+footer
+{
+    background-color: #202024;
+}
+footer .copy
+{
+    color: rgb(85, 85, 85);
+    padding-bottom: 20px;
+    padding-top: 16px;
+}
+footer .copy p
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+footer .sociales
+{
+    display: flex;
+    padding-top: 40px;
+}
+footer .logo2 img
+{
+    height: 70px;
+}
+footer .soci
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0px 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+    padding-bottom: 5px;
+}
+footer .soc
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .soc li
+{
+    list-style: none;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+footer .soc li a
+{
+    text-decoration: none;
+    padding: 6px 8px;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 30px;
+}
+footer .mail
+{
+    padding: 10px 300px;
+    padding-bottom: 60px;
+}
+footer .mail a
+{
+    text-decoration: none;
+    color: rgba(108, 160, 194, 0.568);
+    font-size: 20px;
+}
+footer .designed
+{
+    padding: 10px 300px;
+    display: flex;
+    justify-content: right;
+}
+footer .designed .by p
+{
+    justify-content: left;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+footer .designed
+{
+    color: rgba(255, 255, 255, 0.2);
+}
+footer span
+{
+    color: rgba(138, 179, 255, 0.3)
+}
