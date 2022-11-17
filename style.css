@@ -13,7 +13,7 @@
 body 
 {
     overflow-x: hidden;
-    background-color: #2a2c30;
+    background-color: #202024;
     min-width: 100vh;
     background-size: 100%;
     
@@ -212,4 +212,332 @@ footer .designed
 footer span
 {
     color: rgba(138, 179, 255, 0.3)
+}
+
+@media screen and (max-width: 1325px)
+{
+    .linea
+    {
+        width: 850px;
+    }
+}
+
+@media screen and (max-width: 1225px)
+{
+    .linea
+    {
+        width: 850px;
+    }
+    .sect1 
+    {
+        padding: 100px 100px;
+    }
+    footer .soci 
+    {
+        padding: 0px 200px;
+    }
+    footer .mail 
+    {
+        padding: 10px 200px;
+    }
+    footer .designed {
+        padding: 27px 200px;
+        display: flex;
+        justify-content: right;
+    }
+    #header .logo .text 
+    {
+        font-size: .8em;
+        margin-left: 4px;
+    }
+    #header .logo img 
+    {
+        height: 45px;
+    }
+    #header 
+    {
+        padding: 20px 50px;
+    }
+    .sec 
+    {
+        padding: 60px;
+    }
+    
+}
+
+@media screen and (max-width: 820px)
+{
+    .linea
+    {
+        width: 800px;
+    }
+    .sect1 
+    {
+        padding: 100px 60px;
+    }
+    footer .soci 
+    {
+        padding: 0px 160px;
+    }
+    footer .mail 
+    {
+        padding: 10px 160px;
+    }
+    footer .designed {
+        padding: 27px 150px;
+        display: flex;
+        justify-content: right;
+    }
+    #header .logo .text 
+    {
+        font-size: .8em;
+        margin-left: 4px;
+    }
+    #header .logo img 
+    {
+        height: 45px;
+    }
+    #header 
+    {
+        padding: 20px 50px;
+    }
+    .sec 
+    {
+        padding: 60px;
+    }
+    
+}
+
+@media screen and (max-width: 600px)
+{
+    .linea
+    {
+        width: 550px;
+    }
+    .sect1 
+    {
+        padding: 100px 60px;
+    }
+    footer .soci 
+    {
+        padding: 0px 85px;
+    }
+    footer .mail 
+    {
+        padding: 10px 90px;
+    }
+    footer .designed {
+        padding: 27px 90px;
+        display: flex;
+        justify-content: right;
+    }
+    #header .logo .text 
+    {
+        font-size: .8em;
+        margin-left: 4px;
+    }
+    #header .logo img 
+    {
+        height: 45px;
+    }
+    #header 
+    {
+        padding: 20px 50px;
+    }
+    .sec 
+    {
+        padding: 60px;
+    }
+    
+}
+
+@media screen and (max-width: 600px)
+{
+    .linea
+    {
+        width: 550px;
+    }
+    .sect1 
+    {
+        padding: 100px 60px;
+    }
+    footer .soci 
+    {
+        padding: 0px 85px;
+    }
+    footer .mail 
+    {
+        padding: 10px 90px;
+    }
+    footer .designed {
+        padding: 27px 90px;
+        display: flex;
+        justify-content: right;
+    }
+    #header .logo .text 
+    {
+        font-size: .8em;
+        margin-left: 4px;
+    }
+    #header .logo img 
+    {
+        height: 45px;
+    }
+    #header 
+    {
+        padding: 20px 50px;
+    }
+    .sec 
+    {
+        padding: 60px;
+    }
+    .sec1 .intro1 
+    {
+        font-size: 30px;
+    }
+    .sec1 .intro2 
+    {
+        font-size: 25px;
+    }
+    
+}
+
+@media screen and (max-width: 395px)
+{
+    .linea
+    {
+        width: 550px;
+    }
+    .sect1 
+    {
+        padding: 100px 30px;
+    }
+    footer .soci 
+    {
+        padding: 0px 85px;
+    }
+    footer .mail 
+    {
+        padding: 10px 90px;
+    }
+    footer .designed {
+        padding: 27px 90px;
+        display: flex;
+        justify-content: right;
+    }
+    #header .logo .text 
+    {
+        font-size: .8em;
+        margin-left: 4px;
+    }
+    #header .logo img 
+    {
+        height: 45px;
+    }
+    #header 
+    {
+        padding: 20px 50px;
+    }
+    .sec1 .intro1 
+    {
+        font-size: 30px;
+    }
+    .sec1 .intro2 
+    {
+        font-size: 25px;
+    }
+    
+}
+
+@media screen and (max-width: 375px)
+{
+    .linea
+    {
+        width: 550px;
+    }
+    .sect1 
+    {
+        padding: 100px 30px;
+    }
+    footer .soci 
+    {
+        padding: 0px 85px;
+    }
+    footer .mail 
+    {
+        padding: 10px 90px;
+    }
+    footer .designed {
+        padding: 27px 90px;
+        display: flex;
+        justify-content: right;
+    }
+    #header .logo .text 
+    {
+        font-size: .8em;
+        margin-left: 4px;
+    }
+    #header .logo img 
+    {
+        height: 45px;
+    }
+    #header 
+    {
+        padding: 20px 50px;
+    }
+    .sec1 .intro1 
+    {
+        font-size: 30px;
+    }
+    .sec1 .intro2 
+    {
+        font-size: 25px;
+    }
+    
+}
+@media screen and (max-width: 280px)
+{
+    .linea
+    {
+        width: 550px;
+    }
+    .sect1 
+    {
+        padding: 100px 30px;
+    }
+    footer .soci 
+    {
+        padding: 0px 85px;
+    }
+    footer .mail 
+    {
+        padding: 10px 90px;
+    }
+    footer .designed {
+        padding: 27px 90px;
+        display: flex;
+        justify-content: right;
+    }
+    #header .logo .text 
+    {
+        font-size: .8em;
+        margin-left: 4px;
+    }
+    #header .logo img 
+    {
+        height: 45px;
+    }
+    #header 
+    {
+        padding: 20px 50px;
+    }
+    .sec1 .intro1 
+    {
+        font-size: 25px;
+    }
+    .sec1 .intro2 
+    {
+        font-size: 20px;
+    }
+    
 }
